@@ -1,0 +1,110 @@
+html , body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+ 
+}
+.all
+{
+background: url('https://images.pexels.com/photos/1655166/pexels-photo-1655166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+background-repeat: no-repeat, repeat;
+display: grid;
+background-size: cover;
+min-height: 100vh;
+place-items: center;
+  
+}
+.navbar {
+    top: 0;
+    width: 100%;  
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px ;
+    margin: 10px;
+    text-decoration: none;
+    
+  }
+  
+.box{
+
+
+font-weight: bold;
+color: aliceblue;
+margin-top: 5px;
+margin-bottom: 20px;
+margin-right: 20px;
+margin-left: 20px;
+animation: orbit 5s linear infinite;
+z-index: 2;
+
+}
+.box:before {
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+  content: '';
+}
+input[type=text], select, textarea ,.tarihi {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 10px 12px 0;
+}
+
+.sub {
+  padding: 15px 32px;
+  border: 1px solid #11d1b1;
+  background-color: #ffff;
+  color: #11d1b1;
+  border-radius: 4px;
+  margin: 20px;
+  cursor: pointer;
+  resize: vertical;
+  display: inline-block;
+  font-size: 16px;
+  float: right;
+}
+
+.sub:hover {
+  background-color: #11d1b1;
+  color: white;
+}
+.cikis {
+  padding: 15px 32px;
+  border: 1px solid #11d1b1;
+  background-color: #ffff;
+  color: #11d1b1;
+  border-radius: 4px;
+  margin: 20px;
+  cursor: pointer;
+  resize: vertical;
+  display: inline-block;
+  font-size: 16px;
+  float: left;
+  
+}
+.cikis:hover {
+    color: #ffff;
+  background-color: #11d1b1;
+	
+}
+
+
+
+.error{
+    color:#ffff;
+    font-size: 19px;
+      text-align: right;
+}
+
+td {
+  text-align: left;
+  font-size: 20px;
+  margin: 0px;
+  padding: 20px;
+}
